@@ -27,3 +27,5 @@ Equation : A = 1/(1 + e-x)
 Nature : Non-linear. Notice that X values lies between -2 to 2, Y values are very steep. This means, small changes in x would also bring about large changes in the value of Y.
 Value Range : 0 to 1
 Uses : Usually used in output layer of a binary classification, where result is either 0 or 1, as value for sigmoid function lies between 0 and 1 only so, result can be predicted easily to be 1 if value is greater than 0.5 and 0 otherwise.
+
+![alt text](https://github.com/alexzedev/Magic_nn/blob/main/relu_sigm.png?raw=true)
