@@ -29,3 +29,6 @@ Value Range : 0 to 1
 Uses : Usually used in output layer of a binary classification, where result is either 0 or 1, as value for sigmoid function lies between 0 and 1 only so, result can be predicted easily to be 1 if value is greater than 0.5 and 0 otherwise.
 
 ![alt text](https://github.com/alexzedev/Magic_nn/blob/main/relu_sigm.png?raw=true)
+
+And used Adam Optimizer Algorithm
+Adam(Adaptive Moment Estimation) is an adaptive optimization algorithm that was created specifically for deep neural network training. It can be viewed as a fusion of momentum-based stochastic gradient descent and RMSprop. It scales the learning rate using squared gradients, similar to RMSprop, and leverages momentum by using the gradient’s moving average rather than the gradient itself, similar to SGD with momentum.
