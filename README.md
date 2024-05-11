@@ -10,3 +10,20 @@ Typically, the image of a shower after some pre-processing is an elongated clust
 Neural Networks used in this algorithm extract identifying features from data, lacking pre-programmed understanding. Network components include neurons, connections, weights, biases, propagation functions, and a learning rule. Neurons receive inputs, governed by thresholds and activation functions. Connections involve weights and biases regulating information transfer. Learning, adjusting weights and biases, occurs in three stages: input computation, output generation, and iterative refinement enhancing the network’s proficiency in diverse tasks.
 
 ![alt text](https://github.com/alexzedev/Magic_nn/blob/main/Neural.jpg?raw=true)
+
+
+This Neural network is based on two types of activation functions. RELU and Sigmoid.
+
+RELU Function 
+It Stands for Rectified linear unit. It is the most widely used activation function. Chiefly implemented in hidden layers of Neural network.
+Equation :- A(x) = max(0,x). It gives an output x if x is positive and 0 otherwise.
+Value Range :- [0, inf)
+Nature :- non-linear, which means we can easily backpropagate the errors and have multiple layers of neurons being activated by the ReLU function.
+Uses :- ReLu is less computationally expensive than tanh and sigmoid because it involves simpler mathematical operations. At a time only a few neurons are activated making the network sparse making it efficient and easy for computation.
+
+Sigmoid Function
+It is a function which is plotted as ‘S’ shaped graph.
+Equation : A = 1/(1 + e-x)
+Nature : Non-linear. Notice that X values lies between -2 to 2, Y values are very steep. This means, small changes in x would also bring about large changes in the value of Y.
+Value Range : 0 to 1
+Uses : Usually used in output layer of a binary classification, where result is either 0 or 1, as value for sigmoid function lies between 0 and 1 only so, result can be predicted easily to be 1 if value is greater than 0.5 and 0 otherwise.
